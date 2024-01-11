@@ -1,0 +1,36 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Whitelist",
+		"description": "-whitelist help",
+		"uuid": "83ddc790-c733-4f58-b7e8-f7c5d06b49a5",
+		"version": [ 1, 0, 0 ],
+		"min_engine_version": [ 1, 20, 40 ]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "30b59e00-0086-44d9-ba73-3587afe14c94",
+			"version": [ 0, 0, 1 ]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"entry": "scripts/index.js",
+			"uuid": "f8c60f89-be79-45ff-864d-1f3ca84068e1",
+			"version": "1.4.0-beta"
+		}
+	],
+	"metadata": {
+		"authors": ["WhiteeCattt"],
+		"license": "MIT",
+		"url": "https://github.com/WhiteeCattt/Whitelist"
+	},
+	"dependencies": [
+		{
+			"description": "@minecraft/server module dependency",
+			"module_name": "@minecraft/server",
+			"version": "1.7.0-beta"
+		}
+	]
+}
